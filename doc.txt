@@ -1,0 +1,55 @@
+SpringBoot - React app
+* FrontEnd con springboot - crud en react con props
+
+- se tiene que crear al base de datos en my sql para poder realizar la ejecucion del proyecto , se tiene que activar los dos modulo de frontEnd react y backEnd en springboot
+
+-------------------------------------------------------------------------
+Elementos necesario para usar
+
+ * usar el navegador de chrome para poder visualizar la consola con el inspeccionar
+ * instalar en vs code las extensions
+	- ES7+ React/Redux/React-Native snippets
+	- Simple React Snippets
+	- Auto Close Tag
+	- Auto Rename Tag
+ * instalar los package de node.js os LTS
+ * instalar los package npm
+	- revisar la versión con el nombre y la abreviación de versión ejemplo : -v
+
+-------------------------------------------------------------------------
+Paso a paso
+
+- usar la configuración de creación de proyecto con VITE https://vitejs.dev/guide/
+- ejecutar los comandos de VITE en la terminal
+	- sudo npm create vite@latest
+		- react - javascript
+	- instalar las dependencias con el comando
+		- sudo npm install
+	- levantar el proyecto con npm run dev
+- consumir dato como si fuera de la base de datos en la hojoa de ProductService es donde indicaremos los datos en brutos para poder consumirlos en el JSX despues
+- los PROP significar que los padres pueden pasar elementos a sus hijos
+	- en ProductApp es el padre (la cabecera del contenido de la tabla)
+	- en ProductGrid es el hijo (defini ela tabla del contenido)
+	- en productDetail es el hijo (el detalle del contenido de la tabla)
+- ejecutar el comando en la terminal
+	- npm i prop-types
+	- es la libreria de la validacion de los PROP
+- pasar el title lo pasamos desde main.jsx qu es el padre al ProductApp.jsx
+- formulario para realizar los crud en ProductForm
+- para agregar boostrap se tiene que ingresar al link y realizar los siguiente pasos
+	- https://getbootstrap.com/docs/5.3/getting-started/download/
+	- se copia los link  de CDN via jsDelivr
+		- solo copiamos el que sale el link
+		- se pega en index.html despues de title
+		- se manipulan con los className
+- instalar la libreria de axios
+	- ejecutar en la consola npm i axios
+
+-------------------------------------------------------------------------
+Secuencia de archivos
+
+- crear la carpeta de components
+- crear en components el JSX ProductApp
+- crear la carpeta de services
+- crea en services el JS ProductService
+- Crear en components el JSX ProductForm
