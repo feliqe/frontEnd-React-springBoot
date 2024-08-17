@@ -16,7 +16,7 @@
 - en POSTMAN se realiza la seccuencia de CRUD por medio de GET,POST, DELETE y PUT.
 - en DataRestConfig realizamos la implementación de la función para poder acceder a visualizar el id de cada campos en la tabla cada vez que se realiza una consulta.
 
------------------ORDEN DE CREACION DE DOCUMENTOS----------------
+--------------------------ORDEN DE CREACION DE DOCUMENTOS----------------------
 
 - crear package respositories
 - crear package entities
