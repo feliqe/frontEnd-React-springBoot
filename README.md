@@ -8,7 +8,7 @@
     * spring boot DevTools
     * rest respositories
 
------------------------------------- CONCEPTOS -------------------------------
+------------------------------------ CONCEPTOS --------------------------------------
 
 - en la class Product es donde definiremos los campos de la tabla de products de la base de datos.
 - en ProductRepository se ingresa como respositories el nombre de la base de datos para poder realizar el CRUD a la tabla por medio de la configuración de spring boot, que permite realizar cada acción de CRUD sin definir funciones en los controladores.
